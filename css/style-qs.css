@@ -1,0 +1,191 @@
+  /* Bsico */
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background: #fff;
+}
+
+.contenedor {
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header */
+  
+.logo-menu {
+  margin: 10px 10px;
+  width: 60px;
+  float: left;
+}
+
+/* Main */
+
+/* Inf Poblacion */
+.contenedor3 img {
+  width: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Mision, Vicion, Objetivo */
+
+.mision {
+  background: #F2F2F2;
+}
+
+/* Nuestro equipo */
+
+.contenedor6 {
+  background: url('../img/Grupo\ 5.png');
+  width: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.carousel {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media (min-width: 800px){
+
+  .carousel{
+    margin: 0 60px;
+
+  }
+}
+
+.carousel h2{
+  font-size: 45px;
+  line-height: 38px;
+  opacity: .9;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+
+.carrusel-list {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 300px;
+  padding: 10px 0px;
+  margin: 0px auto;
+  max-width: 90vw;
+  overflow: hidden;
+}
+
+.carrusel-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  transition: .5s ease-in-out;
+}
+
+.carrusel{
+  position: relative;
+  width: 350px;
+  padding: 0 20px;
+  float: left;
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+}
+
+.carrusel img {
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  transition: .3s ease-in-out;
+}
+
+@media (min-width: 760px) {
+  .carrusel{
+    width: 350px;
+  }
+
+  .carrusel img{
+    width: 300px;
+  }
+
+}
+
+.carrusel-arrow {
+  border-radius: 30px;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 4;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  justify-content: center;
+  border: 0;
+  cursor: pointer;
+}
+
+.carrusel-arrow:focus{
+  outline: 0;
+}
+
+.carrusel-arrow svg {
+  width: 12px;
+  height: 100%;
+  color: rgba(0, 0, 0, 7);
+}
+
+.carrusel-prev {
+  left: 0px;
+}
+
+.carrusel-next {
+  right: 0px;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: #070F95;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #070F95;
+  color: #f1f1f1;
+  border-radius: 20%;
+  transition: all .4s ease-in-out;
+  margin: 5px;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
+/* chat */
+.chat {
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+

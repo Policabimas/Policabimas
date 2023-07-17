@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimunscale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style-ubi.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="img/Logo.png">
+    <!-- Chat Interactivo -->
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="abf40fca-ce01-4df1-9fbf-7e0ef10bed42";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
+    <title>Policabimas</title>
+</head>
+<body>
+
+    <!-- Menu de Navegacion -->
+    <header>
+        <div class="relative flex items-center justify-between px-[5%] md:px-[20%]">
+          <div class="logo">
+            <img
+              class="logo-menu"
+              src="img/Logo.png"
+              alt="Logo de la organizacion"
+            />
+          </div>
+          <nav
+            class="hidden [&>a]:text-xl [&>a]:cursor-pointer transitions-all [&>a]:p-2 [&>a]:rounded-md [&>a:hover]:text-white [&>a:hover]:bg-blue-900 md:flex gap-x-3 justify-center items-center"
+          >
+            <a href="index.html">Inicio</a>
+            <a href="policabimas.html">Quiénes somos</a>
+            <a class="text-blue-800 font-semibold" href="ubicaciones.html">Ubicacion</a>
+          </nav>
+  
+          <button 
+          id="boton"
+          data-collapse-toggle="navbar-default" type="button" 
+              class="inline-flex items-center p-2 ml-3 text-sm text-black rounded-lg md:hidden " aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+              </button>
+  
+              <div
+              id="menu"
+              class="absolute z-10 px-4 py-6 space-y-4 md:hidden w-full h-auto bg-black/70 top-[100%] left-0 hidden"
+              >
+                <ul>
+                <li><a class="text-white font-semibold md:text-xl hover:bg-blue-900 hover:text-white p-2 rounded-md w-full inline-block " href="index.html">Inicio</a></li>
+                <li><a class="text-white font-semibold md:text-xl hover:bg-blue-900 hover:text-white p-2 rounded-md w-full inline-block " href="policabimas.html">Quiénes somos</a></li>
+                <li><a class="text-white font-semibold md:text-xl hover:bg-blue-900 hover:text-white p-2 rounded-md w-full inline-block " href="ubicaciones.html">Ubicacion</a></li>
+              </ul>
+              </div>
+              
+        </div>
+      </header>
+    
+    <!-- Menu de Ubicaciones -->
+    <section class="flex justify-evenly md:px-[15%]">
+
+        <div class="contenedo">
+            <article>
+                <h2 class="text-2xl font-semibold">Sede Principal</h2>
+                <div class="w-full flex my-5 ">
+                    <iframe 
+                    class="h-[30vh] md:"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31392.712601542695!2d-71.47808923542784!3d10.41450000042661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e89c76115695a87%3A0x8168a1e34ad274c3!2sPolicia%20Municipal%20de%20Cabimas!5e0!3m2!1ses!2sve!4v1687526986344!5m2!1ses!2sve" 
+                    width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+                <div class="direccion">
+                    <a href="https://www.google.com/maps/dir//Policia+Municipal+de+Cabimas+CH92%2BJ76+Av+G+Cabimas+4013,+Zulia/@10.4190349,-71.449344,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e89c76115695a87:0x8168a1e34ad274c3!2m2!1d-71.449344!2d10.4190349?entry=ttu">
+                        <p class="calle">Dirección: Carr G &, Av. 32 Cabimas 4013, Zulia, Venezuela</p>
+                    </a>
+                </div>
+            </article>
+
+            <article>
+                <h2 class="text-2xl font-semibold">Casco Central</h2>
+                <div class="w-full flex my-5 ">
+                    <iframe 
+                    class="h-[30vh] md:"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d981.0964665569351!2d-71.4742606008026!3d10.39089600000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e89c72d95155555%3A0x7d24f9965a98cf69!2sPolic%C3%ADa%20Municipal%20Cabimas!5e0!3m2!1ses!2sve!4v1687530846292!5m2!1ses!2sve" 
+                    width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+                <div class="direccion">
+                    <a href="https://www.google.com/maps/dir//Polic%C3%ADa+Municipal+Cabimas+9GRG%2B9Q3+Cabimas+4013,+Zulia/@10.390896,-71.4730697,18z/data=!4m5!4m4!1m0!1m2!1m1!1s0x8e89c72d95155555:0x7d24f9965a98cf69">
+                        <p class="calle">Dirección: Centro Civico, Carr. Independencia, Cabimas 4013, Zulia, Venezuela.</p>
+                    </a>
+                </div>
+            </article>
+
+            <article>
+                <h2 class="text-2xl font-semibold">Sede 3</h2>
+                <div class="w-full flex my-5 ">
+                    <iframe 
+                    class="h-[30vh] md:"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1387.7018393558242!2d-71.41645800740315!3d10.340802474342654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e89c670e75aaaab%3A0x7d658f4b800c7807!2sPuesto%20Policial%20Punta%20Gorda!5e0!3m2!1ses!2sve!4v1687530745357!5m2!1ses!2sve" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+                <div class="direccion">
+                    <a href="https://www.google.com/maps/place/Puesto+Policial+Punta+Gorda/@10.341751,-71.415511,17z/data=!4m6!3m5!1s0x8e89c670e75aaaab:0x7d658f4b800c7807!8m2!3d10.3417511!4d-71.4155111!16s%2Fg%2F11kj3f4kp4?hl=es&entry=ttu">
+                        <p class="calle">Dirección: Av. Intercomunal, Cabimas 4013, Zulia, Venezuela.</p>
+                    </a>
+                </div>
+            </article>
+
+            <article>
+                <h2 class="text-2xl font-semibold">Punto de Control</h2>
+                <div class="w-full flex my-5">
+                    <iframe 
+                    class="h-[30vh]"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d981.0540542718664!2d-71.44880189999999!3d10.4043948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e89c745db9ee857%3A0x801e227f6f6b2a64!2sPlaza%20LA%20NORMA!5e0!3m2!1ses!2sve!4v1687529785854!5m2!1ses!2sve" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+                <div class="direccion">
+                    <a href="https://www.google.com/maps/dir//Plaza+LA+NORMA+CH32%2BPCF+Carr.+H+%26,+Av.+Intercomunal+Cabimas+4013,+Zulia/@10.4043044,-71.448963,18z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e89c745db9ee857:0x801e227f6f6b2a64!2m2!1d-71.448963!2d10.4043044?entry=ttu">
+                        <p class="calle">Dirección: Carr. H &, Av. Intercomunal, Cabimas 4013, Zulia, Venezuela.</p>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+     <!-- Footer -->
+    <footer>
+        <div
+          class="w-full flex flex-col md:flex-row px-[5%] md:px-[20%]"
+        >
+          <div class="w-full my-4">
+            <div class="flex flex-col mb-3">
+              <h2 class="text-2xl text-white font-semibold md:text-start mt-5">
+                INFORMACION DE CONTACTO
+              </h2>
+            </div>
+  
+            <div class="contenedor-infor space-y-3">
+              <div class="navbar-grid">
+                <div class="text-start text-white">
+                  <p>
+                    Contactanos si necesitas ayuda porque estamos para resguardar tu seguridad.
+                  </p>
+                </div>
+              </div>
+  
+              <div class="flex items-center">
+                <div>
+                  <img class="correo" src="img/icon-email.svg" alt="correo" />
+                </div>
+                <div class="text-white ml-3">
+                  <p>policiacabimas1@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="flex md:justify-end justify-center my-2 items-center w-full mt-5">
+            <section class="buttons">
+              <a
+                href="https://twitter.com/policiacabimas"
+                class="fa fa-twitter"
+              ></a>
+              <a
+                href="https://www.instagram.com/policabimas/?hl=es"
+                class="fa fa-instagram"
+              ></a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100068847415309"
+                class="fa fa-facebook"
+              ></a>
+            </section>
+          </div>
+        </div>
+  
+        <div class="flex justify-center items-center bg-white p-2">
+          <p>
+            Copyright © 2023
+            <a href="#">Luis Alfonso Rios Rosillo</a>
+          </p>
+        </div>
+      </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

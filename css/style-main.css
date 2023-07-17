@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background: #fff;
+}
+
+.contenedor {
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ /* Header */
+  
+ .logo-menu {
+  margin: 10px 10px;
+  width: 60px;
+  float: left;
+}
+
+   /* Main */
+
+   .principal{
+    background: url('../img/policiaai-transformed.png');
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+   }
+   
+    /* Footer */
+
+  footer {
+  background-color: #070F95;
+  }
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #070F95;
+  color: #f1f1f1;
+  border-radius: 20%;
+  transition: all .4s ease-in-out;
+  margin: 5px;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
+/* chat */
+.chat {
+  margin-bottom: 30px;
+  margin-left: 40px;
+}

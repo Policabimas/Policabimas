@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimunscale=1.0"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/style-main.css" />
+    <link rel="icon" href="img/Logo.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Chat Interactivo -->
+    <script type="text/javascript">
+      window.$crisp = [];
+      window.CRISP_WEBSITE_ID = "abf40fca-ce01-4df1-9fbf-7e0ef10bed42";
+      (function () {
+        d = document;
+        s = d.createElement("script");
+        s.src = "https://client.crisp.chat/l.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+      })();
+    </script>
+
+    <title>Policabimas</title>
+  </head>
+  <body>
+
+    <!-- Menu de Navegacion -->
+    <header>
+      <div class="relative flex items-center justify-between px-[5%] md:px-[20%]">
+        <div class="logo">
+          <img
+            class="logo-menu"
+            src="img/Logo.png"
+            alt="Logo de la organizacion"
+          />
+        </div>
+        <nav
+          class="hidden [&>a]:text-xl [&>a]:cursor-pointer transitions-all [&>a]:p-2 [&>a]:rounded-md [&>a:hover]:text-white [&>a:hover]:bg-blue-900 md:flex gap-x-3 justify-center items-center"
+        >
+          <a class="text-blue-800 font-semibold" href="index.html">Inicio</a>
+          <a href="policabimas.html">Quiénes somos</a>
+          <a href="ubicaciones.html">Ubicacion</a>
+        </nav>
+
+        <button 
+        id="boton"
+        data-collapse-toggle="navbar-default" type="button" 
+            class="inline-flex items-center p-2 ml-3 text-sm text-black rounded-lg md:hidden " aria-controls="navbar-default" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+            </button>
+
+            <div
+            id="menu"
+            class="absolute z-10 px-4 py-6 space-y-4 md:hidden w-full h-auto bg-black/70 top-[100%] left-0 hidden"
+            >
+              <ul>
+              <li><a class="text-white font-semibold md:text-xl hover:bg-blue-900 hover:text-white p-2 rounded-md w-full inline-block " href="index.html">Inicio</a></li>
+              <li><a class="text-white font-semibold md:text-xl hover:bg-blue-900 hover:text-white p-2 rounded-md w-full inline-block " href="policabimas.html">Quiénes somos</a></li>
+              <li><a class="text-white font-semibold md:text-xl hover:bg-blue-900 hover:text-white p-2 rounded-md w-full inline-block " href="ubicaciones.html">Ubicacion</a></li>
+            </ul>
+            </div>
+            
+      </div>
+    </header>
+
+    <!-- Principal -->
+    <section class="principal">
+      <div class="w-full px-[5%] md:px-[20%]">
+        <article class="py-[20px] space-y-2">
+          <h1 class="text-2xl text-white font-semibold mt-5">
+            Instituto Autónomo de Policía del Municipio Cabimas. (POLICABIMAS)
+          </h1>
+
+          <p class="text-white text-base">
+            "Somos la Policía Municipal de Cabimas Estado Zulia, al Servicio del
+            Pueblo"
+          </p>
+          <h2 class="text-white text-base font-semibold pt-[10px] pd-[10px]">
+            -Jhoan Carvajal.
+          </h2>
+        </article>
+      </div>
+
+      <div
+        class="w-full flex px-[5%] md:px-[20%] my-5 justify-center items-center"
+      >
+        <iframe
+          class="h-[30vh] md:h-[50vh] w-full "
+          src="https://www.youtube.com/embed/ALXgt06eX2s"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div
+        class="w-full flex flex-col md:flex-row px-[5%] md:px-[20%]"
+      >
+        <div class="w-full my-4">
+          <div class="flex flex-col mb-3">
+            <h2 class="text-2xl text-white font-semibold md:text-start mt-5">
+              INFORMACION DE CONTACTO
+            </h2>
+          </div>
+
+          <div class="contenedor-infor space-y-3">
+            <div class="navbar-grid">
+              <div class="text-start text-white">
+                <p>
+                  Contactanos si necesitas ayuda porque estamos para resguardar tu seguridad.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-center">
+              <div>
+                <img class="correo" src="img/icon-email.svg" alt="correo" />
+              </div>
+              <div class="text-white ml-3">
+                <p>policiacabimas1@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex md:justify-end justify-center my-2 items-center w-full mt-5">
+          <section class="buttons">
+            <a
+              href="https://twitter.com/policiacabimas"
+              class="fa fa-twitter"
+            ></a>
+            <a
+              href="https://www.instagram.com/policabimas/?hl=es"
+              class="fa fa-instagram"
+            ></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100068847415309"
+              class="fa fa-facebook"
+            ></a>
+          </section>
+        </div>
+      </div>
+
+      <div class="flex justify-center items-center bg-white p-2">
+        <p>
+          Copyright © 2023
+          <a href="#">Luis Alfonso Rios Rosillo</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
